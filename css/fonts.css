@@ -1,0 +1,82 @@
+/*
+ * Noto Sans
+ */
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/Noto_Sans/NotoSans-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/Noto_Sans/NotoSans-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+/*
+ * Josefin Slab
+ */
+
+@font-face {
+  font-family: 'Josefin Slab';
+  src: url('../fonts/Josefin_Slab/JosefinSlab-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Josefin Slab';
+  src: url('../fonts/Josefin_Slab/JosefinSlab-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+/*
+ * Nunito
+ */
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito/Nunito-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito/Nunito-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+/*
+ * Poiret One
+ */
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('../fonts/Poiret_One/PoiretOne-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*
+ * Inconsolata
+ */
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata/Inconsolata-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata/Inconsolata-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+}

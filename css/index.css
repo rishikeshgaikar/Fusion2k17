@@ -1,0 +1,366 @@
+.first {
+  animation: fadeOpacity 1.8s cubic-bezier(0.3, 0.61, 0.355, 1) 0s infinite, scaleRadius 1.8s cubic-bezier(0.165, 0.84, 0.44, 1) 0s infinite;
+}
+.second {
+  animation: fadeOpacity 1.8s cubic-bezier(0.3, 0.61, 0.355, 1) -0.9s infinite, scaleRadius 1.8s cubic-bezier(0.165, 0.84, 0.44, 1) -0.9s infinite;
+}
+
+body > div.hide {
+  display: none;
+}
+
+#preloader {
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2C3E50;
+  padding-top: 50vh;
+  z-index: 4;
+  text-align: center;
+}
+#preloader > div {
+  transform: translateY(-50%);
+}
+#preloader svg {
+  display: inline;
+  vertical-align: text-bottom;
+}
+#preloader .text {
+  font-family: 'Megrim';
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 55px;
+  opacity: 0.5;
+}
+
+nav, aside {
+  position: fixed;
+  background-color: #3D2D52;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+nav {
+  left: 0;
+  width: 50px;
+  padding-top: 50vh;
+}
+aside {
+  right: 0;
+  width: 470px;
+  box-sizing: border-box;
+  padding: 13% 30px 0;
+}
+#timer.starts {
+  padding-top: 5%;
+}
+nav ul {
+  transform: translateY(-50%);
+}
+
+aside h1 {
+  margin-bottom: 10px;
+}
+aside h1 span {
+  color: #FF0084;
+}
+aside h1 span.big {
+  font-size: 2em;
+}
+aside p {
+  margin-bottom: 20px;
+}
+aside h2 {
+  font-size: 3.8em;
+}
+aside h2 + p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+aside .seperator {
+  pointer-events: none;
+  user-select: none;
+}
+#important-links {
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+}
+#important-links .links-container {
+  margin-top: 10px;
+}
+#important-links a {
+  margin: 0 15px;
+}
+
+main{
+  padding-left: 50px;
+  width: calc(100% - 520px);
+  height: 100vh;
+  overflow: hidden;
+}
+main > section {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+section div h2 {
+  font-family: 'Poiret One', sans-serif;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+section div p {
+  line-height: 1.5;
+}
+section div.has-content {
+  background-color: #312442;
+}
+
+section:first-child {
+  position: relative;
+  padding-top: 8%;
+  text-align: center;
+  transition: margin-top 1s ease-in-out;
+}
+section:first-child::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../img/festival-vibes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: grayscale(50%) brightness(50%);
+}
+section:first-child img {
+  display: block;
+  margin: auto;
+}
+section:first-child p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section:last-child h6 {
+  margin-top: 30px;
+  font-family: 'Noto Sans';
+  font-size: 1.5em;
+}
+section:last-child address {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+section form {
+  text-align: justify;
+  text-justify: kashida;
+}
+section form input,
+section form textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+section:last-child input[name=txt-name],
+section:last-child input[name=txt-email] {
+  display: inline-block;
+  width: 48%;
+}
+section:last-child input[name=txt-name] {
+  float: left;
+}
+section:last-child input[name=txt-email] {
+  float: right;
+}
+section:last-child input[name=btn-submit] {
+  margin-top: 10px;
+}
+
+#img-principal {
+  background-image: url('../img/portfolio/principal.png');
+}
+#img-convenor {
+  background-image: url('../img/portfolio/convenor.png');
+}
+
+/*
+ * ----- Phone Number -----
+ */
+span.ph-no,
+span.email-addr {
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/*
+ * ----- Popup -----
+ */
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212121;
+  z-index: 5;
+  display: none;
+}
+#popup.is-open {
+  display: block;
+}
+
+/*
+ * ----- Social Media -----
+ */
+.social-media {
+  word-spacing: 20px;
+  margin-bottom: 30px;
+}
+.social-media a:link,
+.social-media a:visited {
+  display: inline-block;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #FFF;
+  border-radius: 3px;
+  transform: rotate(45deg);
+  background-color: transparent;
+  transition: background-color 500ms ease-out;
+}
+.social-media a:hover,
+.social-media a:active {
+  background-color: #FFF;
+}
+.social-media span {
+  display: inline-block;
+  color: #FFF;
+  height: 100%;
+  width: 100%;
+  line-height: 32px;
+  text-align: center;
+  font-size: 1.2em;
+  transform: rotate(-45deg);
+}
+.social-media a:hover span {
+  color: #3D2D52;
+}
+
+form.hide,
+p.hide {
+  display: none;
+}
+
+.email-message {
+  font-style: italic;
+}
+
+/*sponsors*/
+/*.sponsors{
+  background-image: url("../img/pat2.png");
+}
+.heading{
+  background-image: url("../img/pat2.png");
+}*/
+.mid__section:nth-child(3){
+  background-image: url("../img/pat2.png");
+}
+
+.sponsors-img:nth-child(1){
+  background-image: url("../img/sponsors/th.png");
+}
+.sponsors-img:nth-child(2){
+  background-image: url("../img/sponsors/mt.png");
+}
+.sponsors-img:nth-child(3){
+  background-image: url("../img/sponsors/lic.png");
+}
+.sponsors-img:nth-child(4){
+  background-image: url("../img/sponsors/renaissance.png");
+}
+.sponsors-img:nth-child(5){
+  background-image: url("../img/sponsors/metro.png");
+}
+.sponsors-img:nth-child(6){
+  background-image: url("../img/sponsors/bodycanvas.jpg");
+}
+.sponsors-img:nth-child(7){
+  background-image: url("../img/sponsors/essel.png");
+}
+.sponsors-img:nth-child(8){
+  background-image: url("../img/sponsors/frapp.png");
+}
+.sponsors-img:nth-child(9){
+  background-image: url("../img/sponsors/cetking.png");
+}
+.sponsors-img:nth-child(10){
+  background-image: url("../img/sponsors/imperial.png");
+}
+.sponsors-img:nth-child(11){
+  background-image: url("../img/sponsors/mc.png");
+}
+.sponsors-img:nth-child(12){
+  background-image: url("../img/sponsors/wisdom.png");
+}
+.sponsors-img:nth-child(13){
+  background-image: url("../img/sponsors/endeavor.png");
+}
+.sponsors-img:nth-child(14){
+  background-image: url("../img/sponsors/campus.png");
+}
+.sponsors-img:nth-child(15){
+  background-image: url("../img/sponsors/stupidsid.png");
+}
+.sponsors-img:nth-child(16){
+  background-image: url("../img/sponsors/bukaroo.png");
+}
+.sponsors-img:nth-child(17){
+  background-image: url("../img/sponsors/gold.png");
+}
+.sponsors-img:nth-child(18){
+  background-image: url("../img/sponsors/progate.png");
+}
+.sponsors-img:nth-child(19){
+  background-image: url("../img/sponsors/edwise.png");
+}
+.sponsors-img:nth-child(20){
+  background-image: url("../img/sponsors/kk.png");
+}
+.sponsors-img:nth-child(21){
+  background-image: url("../img/sponsors/luk.png");
+}
+.sponsors-img:nth-child(22){
+  background-image: url("../img/sponsors/angelo.png");
+}
+.sponsors-img:nth-child(23){
+  background-image: url("#");
+}
+.sponsors-img:nth-child(24){
+  background-image: url("#");
+}
+.sponsors-img:nth-child(25){
+  background-image: url("#");
+}
+
+
+/*  Darwin Photo*/
+.darwin{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../img/darwin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,154 @@
+#container {
+  background-image: url("../img/pat.png");
+}
+
+header {
+  padding-top: 20px;
+}
+header h1 {
+  font-family: 'Poiret One';
+  color: #424242;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#main-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.info-container {
+  padding: 20px;
+}
+.img-container {
+  height: 250px;
+  width: 250px;
+  border-radius: 250px;
+  margin-bottom: 20px;
+}
+.names {
+  font-family: 'Inconsolata';
+  font-size: 2em;
+  color: #424242;
+    text-align: center;
+  margin-bottom: 10px;
+}
+
+#akash .img-container {
+  background: url('../img/aboutus/akash.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#sayli .img-container {
+  background: url('../img/aboutus/sayli.png');
+  background-position: center center;
+  background-size: 250px;
+}
+#vandesh .img-container {
+  background: url('../img/aboutus/vandesh.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#bala .img-container {
+  background: url('../img/aboutus/bala.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#ariba .img-container {
+  background: url('../img/aboutus/ariba.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#shoeb .img-container {
+  background: url('../img/aboutus/shoeb.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#aakash .img-container {
+  background: url('../img/aboutus/aakash.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#arti .img-container {
+  background: url('../img/aboutus/arti.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#dhiraj .img-container {
+  background: url('../img/aboutus/dhiraj.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#pratik .img-container {
+  background: url('../img/aboutus/pratik.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#nitin .img-container {
+  background: url('../img/aboutus/nitin.png');
+  background-position: center center;
+  background-size: 250px;
+}
+#rutuja .img-container {
+  background: url('../img/aboutus/rutuja.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#ajay .img-container {
+  background: url('../img/aboutus/ajay.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#siddharth .img-container {
+  background: url('../img/aboutus/sidharth.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#shrishti .img-container {
+  background: url('../img/aboutus/shrishti.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#omkar .img-container {
+  background: url('../img/aboutus/omkar.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#harsha .img-container {
+  background: url('../img/aboutus/harsha.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#harshali .img-container {
+  background: url('../img/aboutus/harshali.png');
+  background-position: center center;
+  background-size: 250px;
+}
+#shariq .img-container {
+  background: url('../img/aboutus/shariq.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#anand .img-container {
+  background: url('../img/aboutus/anad.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#vikas .img-container {
+  background: url('../img/aboutus/vikas.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
+#aman .img-container {
+  background: url('../img/aboutus/aman.png');
+  background-position: center center;
+  background-size: 250px;
+}
+
+#ulka .img-container {
+  background: url('../img/aboutus/ulka.jpg');
+  background-position: center center;
+  background-size: 250px;
+}
